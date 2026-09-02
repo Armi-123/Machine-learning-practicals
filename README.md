@@ -469,4 +469,4 @@ This project is intended for educational and learning purposes.
 Since this is your **college ML practical repository**, I would keep the README exactly this way but change:
 
 ```text
-YOUR-USERNAME
+Armi Sherathiya
