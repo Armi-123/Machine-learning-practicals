@@ -1,35 +1,45 @@
 # P1 — Read and Write CSV & Excel Files
 
-## Practical Information
+## 📌 Practical Information
 
-| Field | Details |
-|---|---|
-| Practical No. | P1 |
-| Practical Name | Python Programming: Read and Write CSV File, Read and Write Excel File |
-| Hours | 8 |
-| CO | CO1 |
+| Field              | Details                                                                |
+| ------------------ | ---------------------------------------------------------------------- |
+| **Practical No.**  | P1                                                                     |
+| **Practical Name** | Python Programming: Read and Write CSV File, Read and Write Excel File |
+| **Course Outcome** | CO1                                                                    |
+| **Hours**          | 8                                                                      |
 
-## Aim
+---
 
-To read and write data using CSV and Excel files with Python and Pandas.
+## 🎯 Aim
 
-## Objectives
+To read and write data using **CSV and Excel files** with Python and Pandas.
 
-- Create and work with a Pandas DataFrame.
-- Write DataFrame data into a CSV file.
-- Read data from a CSV file.
-- Write DataFrame data into an Excel file.
-- Read data from an Excel file.
-- Understand basic file handling using Pandas.
+---
 
-## Technologies Used
+## 📚 Objectives
 
-- Python
-- Jupyter Notebook
-- Pandas
-- OpenPyXL
+The objectives of this practical are:
 
-## Project Structure
+* Create and work with a Pandas DataFrame.
+* Write DataFrame data into a CSV file.
+* Read data from a CSV file.
+* Write DataFrame data into an Excel file.
+* Read data from an Excel file.
+* Understand basic file handling using Pandas.
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python**
+* **Jupyter Notebook**
+* **Pandas**
+* **OpenPyXL**
+
+---
+
+## 📂 Project Structure
 
 ```text
 P1_Read_Write_CSV_Excel/
@@ -38,33 +48,89 @@ P1_Read_Write_CSV_Excel/
 ├── students.csv
 ├── students.xlsx
 └── README.md
+```
 
+---
 
-Dataset
+## 📊 Dataset
 
-The practical uses student data containing the following columns:
+The practical uses a simple student dataset containing the following columns:
 
-Name	Age	Marks
-Armi	21	85
-Rahul	22	78
-Priya	21	92
-Amit	23	88
-Neha	22	95
-Libraries Used
+| Name  | Age | Marks |
+| ----- | --: | ----: |
+| Armi  |  21 |    85 |
+| Rahul |  22 |    78 |
+| Priya |  21 |    92 |
+| Amit  |  23 |    88 |
+| Neha  |  22 |    95 |
+
+### Dataset Columns
+
+* **Name** — Name of the student
+* **Age** — Age of the student
+* **Marks** — Marks obtained by the student
+
+---
+
+## 📦 Libraries Used
+
+The practical uses the **Pandas** library for data handling.
+
+```python
 import pandas as pd
-CSV File Operations
-Write Data to CSV
+```
+
+For Excel file operations, **OpenPyXL** is used as the Excel engine.
+
+---
+
+## 📄 CSV File Operations
+
+### 1. Write Data to CSV
+
+The DataFrame is written to a CSV file using `to_csv()`.
+
+```python
 df.to_csv("students.csv", index=False)
-Read Data from CSV
+```
+
+The `index=False` parameter prevents Pandas from writing the DataFrame index as an additional column.
+
+### 2. Read Data from CSV
+
+The CSV file is read using `read_csv()`.
+
+```python
 df_csv = pd.read_csv("students.csv")
 print(df_csv)
-Excel File Operations
-Write Data to Excel
+```
+
+---
+
+## 📊 Excel File Operations
+
+### 1. Write Data to Excel
+
+The DataFrame is written to an Excel file using `to_excel()`.
+
+```python
 df.to_excel("students.xlsx", index=False)
-Read Data from Excel
+```
+
+### 2. Read Data from Excel
+
+The Excel file is read using `read_excel()`.
+
+```python
 df_excel = pd.read_excel("students.xlsx")
 print(df_excel)
-Workflow
+```
+
+---
+
+## 🔄 Workflow
+
+```text
 Create DataFrame
        ↓
 Write Data to CSV
@@ -76,41 +142,74 @@ Write Data to Excel
 Read Excel File
        ↓
 Display Data
-Learning Outcomes
+```
+
+---
+
+## 🎓 Learning Outcomes
 
 After completing this practical, the following concepts are understood:
 
-Creating a DataFrame using Pandas
-Reading CSV files
-Writing CSV files
-Reading Excel files
-Writing Excel files
-Basic dataset handling using Python
-Result
+* Creating a DataFrame using Pandas
+* Reading CSV files
+* Writing CSV files
+* Reading Excel files
+* Writing Excel files
+* Basic dataset handling using Python
+* Basic file handling using Pandas
 
-The CSV and Excel files were successfully created, written, and read using Python and Pandas.
+---
 
-The practical successfully demonstrates basic CSV and Excel file handling.
+## ✅ Result
 
-Requirements
+The CSV and Excel files were successfully **created, written, and read** using Python and Pandas.
 
-Install the required libraries using:
+This practical successfully demonstrates the basic operations required for **CSV and Excel file handling using Python**.
 
+---
+
+## ⚙️ Requirements
+
+Install the required Python libraries using:
+
+```bash
 pip install pandas openpyxl
-How to Run
+```
 
-Open the Jupyter Notebook:
+---
 
+## ▶️ How to Run
+
+### Step 1: Open Jupyter Notebook
+
+Run the following command in the terminal:
+
+```bash
 jupyter notebook
+```
 
-Then open:
+### Step 2: Open the Practical
 
+Navigate to:
+
+```text
+P1_Read_Write_CSV_Excel/
+```
+
+and open:
+
+```text
 P1_Read_Write_CSV_Excel.ipynb
+```
 
-Run the cells sequentially to execute the practical.
+### Step 3: Execute the Notebook
 
-Author
+Run the notebook cells sequentially to execute the practical and perform the CSV and Excel file operations.
 
-Armi Sherathiya
+---
 
-AI/ML Engineer | Data Scientist
+## 👩‍💻 Author
+
+**Armi Sherathiya**
+
+*AI/ML Engineer | Data Scientist*
