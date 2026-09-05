@@ -95,7 +95,7 @@ This displays the number of missing values present in each column.
 
 ---
 
-## 🤖 KNN Imputation
+## 🤖 KNN Imputation 
 
 The `KNNImputer` class from Scikit-learn is used to estimate missing values based on the nearest observations.
 
