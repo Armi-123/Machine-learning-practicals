@@ -223,7 +223,6 @@ cm = confusion_matrix(y_test, y_pred)
 
 print(cm)
 ```
-
 ---
 
 ## 🧠 Why Use `class_weight="balanced"`?
@@ -287,7 +286,6 @@ Display Results
   ↓
 End
 ```
-
 ---
 
 ## 📊 Model Performance
