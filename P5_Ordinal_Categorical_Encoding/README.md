@@ -195,7 +195,6 @@ which represents:
 ```text
 High > Medium > Low
 ```
-
 ---
 
 ## 🔄 Workflow
@@ -219,7 +218,6 @@ Display Encoded Data
   ↓
 End
 ```
-
 ---
 
 ## 📈 Before and After Encoding
@@ -275,7 +273,6 @@ High   → 3
 Medium → 2
 Low    → 1
 ```
-
 The encoded feature can now be used as numerical input for further machine learning operations.
 
 ---
@@ -287,7 +284,6 @@ Install Pandas using:
 ```bash
 pip install pandas
 ```
-
 ---
 
 ## ▶️ How to Run
