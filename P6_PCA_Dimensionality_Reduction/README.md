@@ -146,7 +146,6 @@ Original Dimensions: 4
         ↓
 Reduced Dimensions: 2
 ```
-
 ---
 
 ## 📊 Creating the Reduced DataFrame
@@ -312,7 +311,6 @@ Navigate to:
 ```text
 P6_PCA_Dimensionality_Reduction/
 ```
-
 and open:
 
 ```text
